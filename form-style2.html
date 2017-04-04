@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page Title</title>
+    <link type="text/css" rel="stylesheet" href="style1.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="form-row.js"></script>
+</head>
+
+<body>
+    <div class="content">
+        <div class="form-row label-expanded">
+            <label>Vorname</label>
+            <input type="text">
+        </div>
+
+        <div class="form-row label-shrunk">
+            <label>Nachname</label>
+            <input type="text" value="Mustermann">
+        </div>
+
+        <div class="form-row invalid label-shrunk">
+            <label>E-Mail</label>
+            <input type="text" value="blah@.huh.com">
+        </div>
+
+        <div class="inlinelabel">
+            Geburtsdatum
+        </div>
+
+        <div class="form-row small-input">
+            <label>Tag</label>
+            <select>
+                <option>1</option>
+                <option>11</option>
+                <option>21</option>
+            </select>
+        </div>
+    </div>
+
+</body>
+
+</html>

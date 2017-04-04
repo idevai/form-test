@@ -1,0 +1,63 @@
+body {
+    background-color: lightblue;
+}
+
+.content {
+    width: 700px;
+}
+
+.form-row {
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    border: 1px solid #BFC0C2;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.form-row input, .form-row select {
+
+    width: 95%;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 5px;
+    margin-top: 15px;
+    border: 0px;
+}
+
+.form-row label {
+    position: absolute;
+    z-index: 1;
+}
+
+.form-row.label-expanded input {
+    margin-top: 0px;
+    height: 35px;
+}
+
+.form-row.label-shrunk input {
+    margin-top: 15px;
+    height: 20px;
+}
+
+.form-row.label-expanded label {
+    font-size: 28px;
+    color: darkgrey;
+    top: 5px;
+    left: 5px;
+}
+
+.form-row.label-shrunk label {
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    top: 2px;
+    left: 5px;
+}
+
+.small-input {
+    width:150px
+}
